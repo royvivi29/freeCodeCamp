@@ -2,6 +2,10 @@ import Card from "./components/Card"
 import Greeting from "./components/Greeting"
 import DeveloperCard from "./components/DeveloperCard"
 import FruitList from "./components/FruitList"
+import UserList from "./components/UserList"
+import Button from "./components/Button"
+import HandleClick from "./components/HandleClick"
+import HandleSubmit from "./components/HandleClick"
 function App() {
   const developerObj = {
     name: "Alice",
@@ -27,6 +31,14 @@ function App() {
   </div>
 
   <FruitList />
+
+  <UserList />
+<div>
+  <Button />
+  
+  </div>
+<HandleClick />
+<HandleSubmit/>
   </>
   )
 }
